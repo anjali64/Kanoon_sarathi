@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+.brand-heading{font-size:50px}
+.brand-description{font-size: 20px}
+.brand{margin-top: 220px}
+
+
+.about-heading{font-size:40px}
+.about-description{font-size: 15px; padding: 20px 50px 20px 50px}
+.about{margin-top: 100px}
+
+.search-heading{font-size:50px;}
+.search-description{font-size: 20px}
+@media(min-width: 768px){
+    .brand{margin-top: 220px}
+    .brand-heading{font-size:100px}
+    .brand-description{font-size: 25px}
+    .about-heading{font-size:60px}
+    .about-description{font-size: 20px; padding: 40px 120px 40px 120px}
+    .search-heading{font-size:60px; margin-top: 80px}
+    .search-description{font-size: 20px}
+}
